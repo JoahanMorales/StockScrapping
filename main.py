@@ -8,7 +8,7 @@ from threading import Thread
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 URL_PRODUCTO = "https://clevercel.mx/products/iphone-13?variant=45475249422492"
-INTERVALO_MINUTOS = 10
+INTERVALO_MINUTOS = 60
 
 load_dotenv()
 
